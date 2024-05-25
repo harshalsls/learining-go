@@ -17,4 +17,5 @@ func main() {
 	futureRealValue := futureValue / math.Pow(1+inflationRate/100, years)
 	fmt.Println(futureValue)
 	fmt.Println(futureRealValue)
+
 }
